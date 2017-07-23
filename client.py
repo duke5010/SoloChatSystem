@@ -18,7 +18,7 @@ def Main():
     print ' [+] Connected to server!'
     username = raw_input(' Please Enter your Username: ')
     sock.send(username)
-    password =raw_input(' >> ')#getpass.getpass( ' Enter your password: ')
+    password =raw_input(' Password >> ')#getpass.getpass( ' Enter your password: ')
     sock.send(password)
     print ' [+] Authenticating...' 
     if sock.recv(1) == 'S':
