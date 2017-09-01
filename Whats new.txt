@@ -1,0 +1,1 @@
+ * Encryption: Now the messages you send is encrypted!
